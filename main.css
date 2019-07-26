@@ -1,41 +1,81 @@
 
+.headergabungan {
+    position: fixed;
+    width: 70%;
+    margin: 0 auto;
+    z-index: 10;
+    float: 
+}
 
 .headerhijau {
     background-color: #14aa2b;
-    padding: 10px;
+    padding: 7px 0px;
     border: 3px solid #17c431;
-    border-top-left-radius: 70%;
-    border-top-right-radius: 70%;
-    position: sticky;
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+
 }
 
+.headerungu {
+    background-color: #623269;
+    padding: 3px 0px;
+    border-bottom: 3px solid #17c431;
+    border-right: 3px solid #17c431;
+    border-left: 3px solid #17c431;
+}
 
 
 ul {
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding-left: 9px;
     overflow: hidden;
     background-color: #623269;
-    position: sticky;
-}
 
-li {
+}
+  
+  li {
     float: left;
-}
-
-li a {
+  }
+  
+  li:last-child {
+    border-right: none;
+  }
+  
+  li a {
+    width: 100%;
     display: block;
-    color:black;
+    color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding: 0px 10px;
     text-decoration: none;
-    border-left: 2px solid black;
 }
 
-/* Change the link color to #111 (black) on hover */
-    li a:hover {
-    background-color: #111;
-} 
+li a img {
+    width: 25px;
+    vertical-align: middle;
+}
 
+strong {
+    padding: 3px 3px;
+    vertical-align: middle;
+}
+
+nav ul li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+.container {
+    width: 70%;
+    margin: auto;
+    background-image: url('./img/terong\ ungu.jpg');
+    opacity: 0.8;
+    color: white;
+    border: 3px solid #17c431;
+    border-bottom-left-radius: 9px;
+    border-bottom-right-radius: 9px;
 }
