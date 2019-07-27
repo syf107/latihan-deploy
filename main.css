@@ -1,10 +1,16 @@
+body {
+    background: rgb(75, 73, 73);
+    width: 70%;
+    margin: auto;
+}
+
 
 .headergabungan {
     position: fixed;
     width: 70%;
-    margin: 0 auto;
+    padding-top: 1px;
+    margin: auto;
     z-index: 10;
-    float: 
 }
 
 .headerhijau {
@@ -32,7 +38,7 @@ ul {
     overflow: hidden;
     background-color: #623269;
 
-}
+  }
   
   li {
     float: left;
@@ -54,6 +60,7 @@ ul {
 li a img {
     width: 25px;
     vertical-align: middle;
+    image-orientation: initial;
 }
 
 strong {
@@ -62,20 +69,93 @@ strong {
 }
 
 nav ul li a:hover:not(.active) {
-    background-color: #111;
+    background-color: #3f1246 ;
 }
 
-.active {
-    background-color: #4CAF50;
-}
 
 .container {
-    width: 70%;
-    margin: auto;
-    background-image: url('./img/terong\ ungu.jpg');
-    opacity: 0.8;
-    color: white;
+    position: relative;
+    top: 65px;
+    height: 179px;
+    background-image: url(./img/terong\ ungu.jpg);
+    background-repeat: no-repeat;
+    background-blend-mode: hard-light;
     border: 3px solid #17c431;
     border-bottom-left-radius: 9px;
     border-bottom-right-radius: 9px;
+    z-index: 3;
+}
+
+
+.container h1 {
+    vertical-align: top;
+    font-size: 95px;
+    text-align: center;
+    color: white;
+    position: relative;
+    bottom: 30px;
+    text-shadow: black;
+
+}
+
+.container h1 img {
+    width: 140px;
+    position: relative;
+    vertical-align: middle;
+    
+}
+
+.latar {
+    background-color: #623269;
+    position: relative;
+    top: 60px;
+    border: 3px solid #14aa2b;
+    text-align: justify;
+    padding: 0 30px 40px 30px;
+    border-bottom-left-radius: 9px;
+    border-bottom-right-radius: 9px;
+
+}
+
+.latar p {
+    padding: 0px 30px;
+    word-spacing: 1px;
+    letter-spacing: 0.5px;
+    text-indent: 35px;
+}
+
+.latar h2 {
+    text-align: center;
+    text-transform: uppercase;
+    word-spacing: 1px;
+    letter-spacing: 0.5px;
+
+}
+
+.footergabungan {
+    position: fixed;
+    width: 70%;
+    margin: auto;
+    bottom: 0;
+    padding-bottom: 1px;
+    z-index: 10;
+}
+
+
+.footerungu {
+    background-color: #623269;
+    padding: 25px 0px 0px 0px;
+    border: 3px solid #17c431;
+
+}
+
+.footerhijau {
+    background-color: #14aa2b;
+    padding: 7px 0px;
+    border-bottom: 3px solid #17c431;
+    border-right: 3px solid #17c431;
+    border-left: 3px solid #17c431;
+    border-bottom-left-radius: 9px;
+    border-bottom-right-radius: 9px;
+
 }
