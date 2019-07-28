@@ -10,6 +10,11 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Libre Baskerville', serif;
 }
 
+div h2 {
+    border-bottom: 3px solid #3f1246;
+    padding-bottom: 10px;
+}
+
 .headergabungan {
     position: fixed;
     width: 70%;
@@ -173,7 +178,8 @@ a .terongungu {
     transform: translate(-50%, -50%);
     font-family: "Libre Baskerville, bold" ;
     font-size: large;
-    color: blue;
+    color: #e27ef1;
+    text-shadow: 2px 2px black;
     font-weight: bold;
 }
 
@@ -199,7 +205,7 @@ a .terongungu {
 
 .benefit {
     position: relative;
-    top: 25px;
+    top: 35px;
     width: 100%;
     margin: auto;
     align-content: center;
@@ -216,7 +222,7 @@ a .terongungu {
 
 }
 
-.benefit .keuntungan, .kotak, p, .benefit {
+.benefit .keuntungan, .kotak p, .benefit, .formsos h2, .h2latar, .latar2 {
     text-align: center;
     text-transform: uppercase;
     word-spacing: 1px;
@@ -250,22 +256,37 @@ i {
 
 .formsos {
     position: relative;
-    height: 700px;
+    height: 800px;
     width: 100%;
     border: 3px solid #14aa2b;
     border-bottom-left-radius: 9px;
     border-bottom-right-radius: 9px;
     background: #623269;
+    float: left;
+    align-content: center;
 }
+
+
 
 .formulir {
-    border: 4px dotted black;
+    border: 2px solid #3f1246;
     background-color: #e27ef1;
-    width: 300px;
-    margin: 30px;
-    padding: 10px 15px;
+    width: 345px;
+    margin: 30px 40px;
+    padding: 30px 15px;
+    float: left;
 }
 
+.gambarakhir {
+    padding-top: 33px;
+    border: 2px solid #3f1246;
+    background-color: #e27ef1;
+}
+.gambarakhir img {
+    width: 300px;
+    height: 200px;
+    padding: 0px 40px 10px 40px;
+}
 .footergabungan {
     position: fixed;
     width: 70%;
@@ -274,7 +295,6 @@ i {
     padding-bottom: 1px;
     z-index: 10;
 }
-
 
 .footerungu {
     background-color: #623269;
@@ -292,3 +312,31 @@ i {
     border-bottom-left-radius: 9px;
     border-bottom-right-radius: 9px;
 }
+
+.headerunguwelcome {
+    background-color: #623269;
+    padding: 3px 0px 40px 0px;
+    border-bottom: 3px solid #17c431;
+    border-right: 3px solid #17c431;
+    border-left: 3px solid #17c431;
+}
+
+.terong12 {
+    font-family: "Libre Baskerville, bold" ;
+    font-size: large;
+    color: #e27ef1;
+    text-shadow: 2px 2px black;
+    font-weight: bold;
+}
+
+.terongterong {
+    width: 350px;
+    height: 300px;
+}
+
+.deskripsiterong {
+    background: #623269;
+    text-align: justify;
+    padding: 30px 40px 30px 30px;
+}
+
