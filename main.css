@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville:400,700&display=swap');
+
 body {
     background: rgb(75, 73, 73);
     width: 70%;
@@ -42,15 +43,11 @@ ul {
     overflow: hidden;
     background-color: #623269;
 
-  }
+}
   
   li {
     float: left;
-  }
-  
-  li:last-child {
-    border-right: none;
-  }
+}
   
   li a {
     width: 100%;
@@ -103,7 +100,7 @@ nav ul li a:hover:not(.active) {
 }
 
 .container h1 img {
-    width: 140px;\
+    width: 140px;
     position: relative;
     vertical-align: middle;
         
@@ -118,6 +115,7 @@ nav ul li a:hover:not(.active) {
     padding: 0 30px 40px 30px;
     border-bottom-left-radius: 9px;
     border-bottom-right-radius: 9px;
+    height: 378px;
 
 }
 
@@ -136,23 +134,136 @@ nav ul li a:hover:not(.active) {
 
 }
 
-.varian {
+.varianterong {
+    padding-top: 0;
+    padding-left: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    word-spacing: 1px;
+    letter-spacing: 0.5px;
     position: relative;
     top: 40px;
+    height: 700px;
+    line-height: 1; 
+    align-content: center;
     border: 3px solid #14aa2b;
+    border-bottom-left-radius: 9px;
+    border-bottom-right-radius: 9px;
+    background-color: #623269;
+
 }
 
-.terongungu, .terongputih, .terongtelunjuk, .terongbelanda, .terongpipit,  {
+.varian {
+    padding-top: 0;
+    position: relative;
+    float: left;
+    margin: 2% 2%;
+}
+
+a .terongungu {
     position: relative;
     text-align: center;
     color: white;
 }
 
-.terong1 {
+ .terong1 {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    font-family: "Libre Baskerville, bold" ;
+    font-size: large;
+    color: blue;
+    font-weight: bold;
+}
+
+ .terongungu img  {
+    height: 250px;
+    width: 250px;
+    -webkit-filter: blur(4px);
+    filter: blur(4px);
+    text-align: center;
+         
+}
+
+.terongungu img:hover {
+    -webkit-filter: none;
+    filter: none;
+    text-decoration: none;
+    height: 244px;
+    width: 244px;
+    border: 3px solid #3f1246;
+    border-radius: 30px;
+    font-size: 1.5em;
+}
+
+.benefit {
+    position: relative;
+    top: 25px;
+    width: 100%;
+    margin: auto;
+    align-content: center;
+    height: 1080px;
+    background: #623269;
+    border: 3px solid #14aa2b;
+    border-bottom-left-radius: 9px;
+    border-bottom-right-radius: 9px;
+
+}
+
+.keuntungan {
+    position: relative;
+
+}
+
+.benefit .keuntungan, .kotak, p, .benefit {
+    text-align: center;
+    text-transform: uppercase;
+    word-spacing: 1px;
+    letter-spacing: 0.5px;
+}
+
+
+.kotak {
+    font-size: 15px;
+    font-weight: bold;
+    width: 200px;
+    height: 350px;
+    text-align: center;
+    border: 7px solid black;
+    background: rgb(180, 176, 176);
+    border-bottom-right-radius: 30px;
+    border-top-left-radius: 30px;
+    padding: 20px 30px;
+    margin: 50px 70px 30px 100px;
+    float: left;
+}
+
+i {
+    font-size: 100px;
+    width: 120px;
+    height: 120x;
+    border: 5px double black;
+    padding: 10px;
+    border-radius: 9px;
+}
+
+.formsos {
+    position: relative;
+    height: 700px;
+    width: 100%;
+    border: 3px solid #14aa2b;
+    border-bottom-left-radius: 9px;
+    border-bottom-right-radius: 9px;
+    background: #623269;
+}
+
+.formulir {
+    border: 4px dotted black;
+    background-color: #e27ef1;
+    width: 300px;
+    margin: 30px;
+    padding: 10px 15px;
 }
 
 .footergabungan {
@@ -180,5 +291,4 @@ nav ul li a:hover:not(.active) {
     border-left: 3px solid #17c431;
     border-bottom-left-radius: 9px;
     border-bottom-right-radius: 9px;
-
 }
